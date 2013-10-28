@@ -1,0 +1,2 @@
+#!/bin/bash
+cat ~/.local/share/parcellite/history | strings | dmenu -i -b -l 30 -p "$(date +"%a %d. %b %R")" | xclip
